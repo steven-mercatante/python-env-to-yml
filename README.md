@@ -6,7 +6,7 @@ A simple script to generate a `.yml` file from a `.env` file.
 
 Usage
 -----
-Assumes existence of `.env` and will generate `env.yml`.    
+If no command line options are passed, assumes existence of `.env` and will generate `env.yml`.    
 Both the `.env` and `.yml` filepaths can be specified with `-e` and `-y`, respectively.
 
 ```shell
