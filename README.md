@@ -1,4 +1,4 @@
-Python - .env to .yml
+Python .env to .yml
 =====================
 
 A simple script to generate a `.yml` file from a `.env` file. 
