@@ -10,7 +10,7 @@ Assumes existence of `.env` and will generate `env.yml`.
 Both the `.env` and `.yml` filepaths can be specified with `-e` and `-y`, respectively.
 
 ```shell
-python env-to-yml.py
-python env-to-yml.py -e config/.env -y config/vars.yml
+python env_to_yml.py
+python env_to_yml.py -e config/.env -y config/vars.yml
 ```
 
