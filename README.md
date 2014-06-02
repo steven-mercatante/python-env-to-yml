@@ -14,3 +14,20 @@ python env_to_yml.py
 python env_to_yml.py -e config/.env -y config/vars.yml
 ```
 
+#### Example
+Transforms this:
+```shell
+# .env
+
+FIRST_NAME=Ned
+LAST_NAME=Stark
+```
+
+to this:
+```shell
+# env.yml
+
+---
+FIRST_NAME: Ned
+LAST_NAME: Stark
+```
